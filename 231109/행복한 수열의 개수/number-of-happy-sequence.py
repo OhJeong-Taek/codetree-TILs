@@ -20,9 +20,9 @@ for i in range(n):
         answer += 1
 
 #column
-for i in range(n):
-    for j in range(n):
-        seq[i] = grid[j][i]
+for j in range(n):
+    for i in range(n):
+        seq[i] = grid[i][j]
     if is_happy_sequence():
         answer += 1
 print(answer)
