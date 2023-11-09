@@ -13,5 +13,8 @@ def dfs(x):
         if grid[x][cur] and not visited[cur]:
             dfs(cur)
 
-dfs(1)
-print(sum(visited)-1)
+if M>0:
+    dfs(1)
+    print(sum(visited)-1)
+else:
+    print(0)
