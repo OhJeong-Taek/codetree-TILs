@@ -17,5 +17,7 @@ for i in range(n):
                             break
                     if is_rectangle:
                         max_area = max(max_area, (end_i-i+1)*(end_j-j+1))
+                    else:
+                        break
 
 print(max_area)
