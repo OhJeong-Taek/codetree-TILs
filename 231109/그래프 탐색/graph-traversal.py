@@ -1,16 +1,16 @@
 N, M = map(int, input().split())
-grid = [[0]*N for _ in range(N)]
-visited = [False] * N
+grid = [[0]* (N+1) for _ in range(N+1)]
+visited = [False] * (N+1)
 
 for _ in range(M):
     x, y = map(int, input().split())
-    grid[x-1][y-1] = 1
-    grid[y-1][x-1] = 1
+    grid[x][y] = 1
+    grid[y][x] = 1
 
 def dfs(x):
-    visited[x] = True
-    for cur in range(N):
+    for cur in range(1, N+1):
         if grid[x][cur] and not visited[cur]:
+            visited[cur] = True
             dfs(cur)
 
 if M>0:
