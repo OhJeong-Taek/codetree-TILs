@@ -5,6 +5,7 @@ visited = [False] * N
 for _ in range(M):
     x, y = map(int, input().split())
     grid[x-1][y-1] = 1
+    grid[y-1][x-1] = 1
 
 def dfs(x):
     visited[x] = True
