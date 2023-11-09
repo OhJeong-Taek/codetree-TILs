@@ -1,18 +1,22 @@
 # 📖 학습하기
 
 ## 🚀 기업별 학습
-23년 11월 08일 목표(240px)까지 220px 남았습니다.
+23년 11월 08일 목표(240px)까지 130px 남았습니다.
 
-![20xp](https://img.shields.io/badge/EXP-20xp-%235cb85c.svg?for-the-badge)
-![1일째](https://img.shields.io/badge/연속학습-1일째-%23E34F26.svg?for-the-badge)
+![110xp](https://img.shields.io/badge/EXP-110xp-%235cb85c.svg?for-the-badge)
+![2일째](https://img.shields.io/badge/연속학습-2일째-%23E34F26.svg?for-the-badge)
 
 |총 문제수|획득 경험치|연속 학습|
 |---:|---:|---|
-1|20xp|1일째🔥|
+5|110xp|2일째🔥|
 
 |교재|이름|난이도|상태|최근 제출 코드|
 |---|---|:---:|:---:|---|
 |[LG / 자료구조 / HashMap](https://www.codetree.ai/missions?missionId=19)|[[개념]hashmap 기본](https://www.codetree.ai/missions/19/problems/hashmap-basic)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/OhJeong-Taek/codetree-TILs/blob/main/231108/hashmap%20%EA%B8%B0%EB%B3%B8/hashmap-basic.cpp)|
+|[LG / 자료구조 / HashMap](https://www.codetree.ai/missions?missionId=19)|[[개념]숫자 등장 횟수](https://www.codetree.ai/missions/19/problems/number-frequency)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/OhJeong-Taek/codetree-TILs/blob/main/231108/%EC%88%AB%EC%9E%90%20%EB%93%B1%EC%9E%A5%20%ED%9A%9F%EC%88%98/number-frequency.cpp)|
+|[LG / 자료구조 / HashMap](https://www.codetree.ai/missions?missionId=19)|[[개념]가장 많은 데이터](https://www.codetree.ai/missions/19/problems/most-data)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/OhJeong-Taek/codetree-TILs/blob/main/231108/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%80%20%EB%8D%B0%EC%9D%B4%ED%84%B0/most-data.cpp)|
+|[LG / 완전탐색 / 자리 수 단위로 완전탐색](https://www.codetree.ai/missions?missionId=19)|[[개념]모이자](https://www.codetree.ai/missions/19/problems/gather)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/OhJeong-Taek/codetree-TILs/blob/main/231108/%EB%AA%A8%EC%9D%B4%EC%9E%90/gather.py)|
+|[LG / 완전탐색 / 자리 수 단위로 완전탐색](https://www.codetree.ai/missions?missionId=19)|[[테스트]특정 수와 근접한 합](https://www.codetree.ai/missions/19/problems/sum-close-to-particular-number)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/OhJeong-Taek/codetree-TILs/blob/main/231108/%ED%8A%B9%EC%A0%95%20%EC%88%98%EC%99%80%20%EA%B7%BC%EC%A0%91%ED%95%9C%20%ED%95%A9/sum-close-to-particular-number.py)|
 
 
 * 획득 경험치: 해설을 보지 않고 푼 문제에 한해 최초 1회 경험치를 획득하실 수 있습니다.
