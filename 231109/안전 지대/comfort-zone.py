@@ -39,4 +39,4 @@ for k in range(k_max):
         ans_k = k
     clear_visited()
 
-print(max_count, ans_k)
+print(ans_k, max_count)
