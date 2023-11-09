@@ -25,7 +25,7 @@ k_max = max(max(x) for x in board)
 max_count = 0
 ans_k = 0
 
-for k in range(1, k_max):
+for k in range(k_max):
     count = 0
     for i in range(N):
         for j in range(M):
