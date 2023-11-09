@@ -24,7 +24,7 @@ def clear_visited():
         for j in range(M):
             visited[i][j] = False
 
-k_max = 100
+k_max = max(max(x) for x in board)
 max_count = 0
 ans_k = 1
 
