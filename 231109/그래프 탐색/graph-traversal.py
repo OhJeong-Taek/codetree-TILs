@@ -14,4 +14,4 @@ def dfs(x):
             dfs(cur)
 
 dfs(1)
-print(sum(visited))
+print(sum(visited)-1)
