@@ -6,6 +6,7 @@ answer = 0
 #row
 for i in range(n):
     consequtive = 0
+    maxConsequtive = 0
     bef = board[i][0]
     for j in range(n):
         cur = board[i][j]
@@ -13,13 +14,15 @@ for i in range(n):
             consequtive += 1
         else:
             consequtive = 1
+        maxConsequtive = max(maxConsequtive, consequtive)
         bef = cur
-    if consequtive >= m:
+    if maxConsequtive >= m:
         answer += 1
 
 #column
 for i in range(n):
     consequtive = 0
+    maxConsequtive = 0
     bef = board[0][i]
     for j in range(n):
         cur = board[j][i]
@@ -27,7 +30,8 @@ for i in range(n):
             consequtive += 1
         else:
             consequtive = 1
+        maxConsequtive = max(maxConsequtive, consequtive)
         bef = cur
-    if consequtive >= m:
+    if maxConsequtive >= m:
         answer += 1
 print(answer)
