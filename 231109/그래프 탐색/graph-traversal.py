@@ -8,13 +8,12 @@ for _ in range(M):
     grid[y][x] = 1
 
 def dfs(x):
+    if M == 0:
+        return
     for cur in range(1, N+1):
         if grid[x][cur] and not visited[cur]:
             visited[cur] = True
             dfs(cur)
 
-if M>0:
-    dfs(1)
-    print(sum(visited)-1)
-else:
-    print(0)
+dfs(1)
+print(max(sum(visited)-1, 0))
