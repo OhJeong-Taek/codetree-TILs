@@ -11,6 +11,8 @@ for i in range(n):
         cur = board[i][j]
         if bef == cur:
             consequtive += 1
+        else:
+            consequtive = 1
         bef = cur
     if consequtive >= m:
         answer += 1
@@ -23,6 +25,8 @@ for i in range(n):
         cur = board[j][i]
         if bef == cur:
             consequtive += 1
+        else:
+            consequtive = 1
         bef = cur
     if consequtive >= m:
         answer += 1
