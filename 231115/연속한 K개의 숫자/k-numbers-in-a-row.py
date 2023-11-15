@@ -14,6 +14,6 @@ for i in range(1, N+1):
 ans = sys.maxsize
 for i in range(1, N-K+2): #10 6
     #ans = min(ans, sum(arr[i:i+K]))    #O(n) = (KN)
-    ans = min(ans, prefix_sum[i+K-1] - prefix_sum[i-1])
+    ans = min(ans, prefix_sum[i+K-1] - prefix_sum[i-1]) # 속도 25배 가량 단축
 
 print(ans)
