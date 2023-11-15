@@ -8,7 +8,7 @@ for _ in range(B):
     arr[val] = 1
 
 ans = sys.maxsize
-for i in range(N-K+1):
+for i in range(N-K+2): #10 6
     ans = min(ans, sum(arr[i:i+K]))    
 #On = (KN)
 
