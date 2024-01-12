@@ -1,11 +1,10 @@
-arr = list(input())
-n = len(arr)
-
+string = input()
+n = len(string)
 ans = 0
+
 for i in range(n):
-    if arr[i] == '(':
-        for j in range(i+1, n):
-            if arr[j] == ')':
-                ans += 1
+    for j in range(i+1, n):
+        if string[i] == '(' and string[j] == ')':
+            ans += 1
 
 print(ans)
