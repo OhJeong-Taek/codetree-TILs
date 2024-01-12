@@ -1,11 +1,9 @@
 n, k = map(int, input().split())
-arr = []
-for i in range(n):
-    arr.append(int(input()))
+coins = [int(input()) for _ in range(n)]
 
 ans = 0
-for i in range(n-1, -1, -1):
-    ans += k // arr[i]
-    k = k % arr[i]
+for coin in coins[::-1]:
+    ans += k // coin
+    k %= coin
 
 print(ans)
