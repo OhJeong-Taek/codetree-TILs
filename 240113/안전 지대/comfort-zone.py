@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(10**6)
+
 N, M = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(N)]
 visited = [[0]*M for _ in range(N)]
@@ -15,10 +18,11 @@ def can_go(r, c, k):
 
 def dfs(r, c, k):
     drs, dcs = [0,1,0,-1], [1,0,-1,0]
-    visited[r][c] = 1
+    
     for dr, dc in zip(drs, dcs):
         nr, nc = r+dr, c+dc
         if can_go(nr, nc, k):
+            visited[nr][nc] = 1
             dfs(nr, nc, k)
 
 def clear_visited():
@@ -34,6 +38,7 @@ for k in range(1, max_val):
         for c in range(M):
             if can_go(r, c, k):
                 comfort_zone += 1
+                visited[r][c] = 1
                 dfs(r,c,k)
     if comfort_zone > max_comfort_zone:
         max_k = k 
