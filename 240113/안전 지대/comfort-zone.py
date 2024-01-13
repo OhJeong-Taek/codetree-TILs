@@ -27,7 +27,7 @@ def clear_visited():
             visited[i][j] = 0
 
 max_comfort_zone = 0
-max_k = 0
+max_k = 1
 for k in range(1, max_val):
     comfort_zone = 0
     for r in range(N):
